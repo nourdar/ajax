@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AJAX - BROWSERS</title>
+  </head>
+  <body>
+    <script>
+      if(new XMLHttpRequest){
+        console.log("yes Your Browser Support Ajax");
+        if(new ActiveXObject("Microsoft.XMLHTTP")) {
+          console.log("you are use internet explorer");
+        }
+      } else {
+        console.log(" You Can't Use Ajax In This Browser ");
+      }
+    </script>
+  </body>
+</html>
